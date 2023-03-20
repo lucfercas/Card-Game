@@ -1,7 +1,15 @@
-const cards = document.querySelectorAll(".card")
+const cards = document.querySelectorAll(".card");
+
+let xFlippedCard = false;
+let firstCard, secondCard;
 
 function flipCard() {
-    this.classList.toggle('flip');
+    this.classList.add('flip');
+
+    if(!xFlippedCard) {
+        xFlippedCard = true;
+        firstCard = this;
+    }
   }
   
   cards.forEach(card => card.addEventListener('click', flipCard));
