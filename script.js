@@ -21,9 +21,12 @@ function flipCard() {
   }
 
 function checkMatch() {
-    if (firstCard.dataset.img === secondCard.dataset.img) {
-        disableCards();
-        return;
+    const { img: img1 } = firstCard.dataset;
+    const { img: img2 } = secondCard.dataset;
+  
+    if (img1 === img2) {
+      disableCards();
+      return;
     }
 
     unflipCards();
