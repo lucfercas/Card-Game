@@ -1,4 +1,4 @@
-# Memory card Game
+# Game
 
 https://lucfercas.github.io/Game/
 
