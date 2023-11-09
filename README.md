@@ -1,4 +1,4 @@
-# Game
+# Card Game
 
 https://lucfercas.github.io/Game/
 
