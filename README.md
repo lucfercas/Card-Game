@@ -1,6 +1,6 @@
 # Card Game
 
-https://lucfercas.github.io/Game/
+# About
 
 The game has 16 cards, and when the game starts they are all facing down. The cards flip when clicked, and must be paired to their equal. When the wrong card is flipped, both selected cards return to their initial state (backwards). The cards are randomly shuffled each time the page is refreshed. 
 
